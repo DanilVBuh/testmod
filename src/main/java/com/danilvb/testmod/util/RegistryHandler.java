@@ -17,4 +17,5 @@ public class RegistryHandler {
 
     //Items
     public static final RegistryObject<Item> MIODIUM = ITEMS.register("miodium", ItemBase::new);
+    public static final RegistryObject<Item> PEREKRISTIUM = ITEMS.register("perekristium", ItemBase::new);
 }
