@@ -1,4 +1,6 @@
 {
   "item.testmod.miodium": "Miodium",
-  "item.testmod.perekristium": "Perekristium"
+  "item.testmod.perekristium": "Perekristium",
+  "block.testmod.miodium_block": "Block of miodium",
+  "itemGroup.testTab": "Test tab"
 }
