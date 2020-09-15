@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "testmod:miodium_ore"
+  },
+  "result": "testmod:miodium",
+  "experience": 2.0,
+  "cookingtime": 200
+}

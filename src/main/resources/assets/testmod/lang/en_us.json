@@ -2,6 +2,7 @@
   "item.testmod.miodium": "Miodium",
   "item.testmod.perekristium": "Perekristium",
   "block.testmod.miodium_block": "Block of miodium",
+  "block.testmod.miodium_ore": "Miodium ore",
   "block.testmod.perekristium_block": "Block of perekristium",
   "itemGroup.testTab": "Test tab"
 }
