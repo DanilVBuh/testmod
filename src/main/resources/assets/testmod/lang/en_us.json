@@ -1,4 +1,8 @@
 {
   "item.testmod.miodium": "Miodium",
-  "item.testmod.perekristium": "Perekristium"
+  "item.testmod.perekristium": "Perekristium",
+  "item.testmod.miodium_helmet": "Miodium helmet",
+  "item.testmod.miodium_boots": "Miodium boots",
+  "item.testmod.miodium_chestplate": "Miodium chestplate",
+  "item.testmod.miodium_leggings": "Miodium leggings"
 }
