@@ -5,4 +5,13 @@
   "block.testmod.miodium_ore": "Miodium ore",
   "block.testmod.perekristium_block": "Block of perekristium",
   "itemGroup.testTab": "Test tab"
+  "item.testmod.miodium_sword": "Miodium sword",
+  "item.testmod.miodium_axe": "Miodium axe",
+  "item.testmod.miodium_pickaxe": "Miodium pickaxe",
+  "item.testmod.miodium_shovel": "Miodium shovel",
+  "item.testmod.miodium_hoe": "Miodium hoe",
+  "item.testmod.miodium_helmet": "Miodium helmet",
+  "item.testmod.miodium_boots": "Miodium boots",
+  "item.testmod.miodium_chestplate": "Miodium chestplate",
+  "item.testmod.miodium_leggings": "Miodium leggings"
 }

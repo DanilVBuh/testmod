@@ -9,6 +9,12 @@ import com.danilvb.testmod.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.OreBlock;
 import net.minecraft.item.BlockItem;
+import com.danilvb.testmod.armor.TestArmorMaterial;
+import com.danilvb.testmod.items.ItemBase;
+import com.danilvb.testmod.tools.MiodiumItemTier;
+import net.minecraft.item.*;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -42,4 +48,25 @@ public class RegistryHandler {
     public static final RegistryObject<Item> PEREKRISTIUM_BLOCK_ITEM = ITEMS.register("perekristium_block", () -> new BlockItemBase(PEREKRISTIUM_BLOCK.get()));
 
 
+    //Tools
+    public static final RegistryObject<SwordItem> MIODIUM_SWORD = ITEMS.register("miodium_sword", () ->
+            new SwordItem(MiodiumItemTier.MIODIUM, 3, -1.0f, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<AxeItem> MIODIUM_AXE = ITEMS.register("miodium_axe", () ->
+            new AxeItem(MiodiumItemTier.MIODIUM, 4, -2.0f, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<PickaxeItem> MIODIUM_PICKAXE = ITEMS.register("miodium_pickaxe", () ->
+            new PickaxeItem(MiodiumItemTier.MIODIUM, 1, -2.8f, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ShovelItem> MIODIUM_SHOVEL = ITEMS.register("miodium_shovel", () ->
+            new ShovelItem(MiodiumItemTier.MIODIUM, 2, -3.2f, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<HoeItem> MIODIUM_HOE = ITEMS.register("miodium_hoe", () ->
+            new HoeItem(MiodiumItemTier.MIODIUM, -3.2f, new Item.Properties().group(TestMod.TAB)));
+  
+    //Armor
+    public static final RegistryObject<ArmorItem> MIODIUM_HELMET = ITEMS.register("miodium_helmet",
+            () -> new ArmorItem(TestArmorMaterial.MIODIUM, EquipmentSlotType.HEAD, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ArmorItem> MIODIUM_CHESTPLATE = ITEMS.register("miodium_chestplate",
+            () -> new ArmorItem(TestArmorMaterial.MIODIUM, EquipmentSlotType.CHEST, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ArmorItem> MIODIUM_LEGGINGS = ITEMS.register("miodium_leggings",
+            () -> new ArmorItem(TestArmorMaterial.MIODIUM, EquipmentSlotType.LEGS, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ArmorItem> MIODIUM_BOOTS = ITEMS.register("miodium_boots",
+            () -> new ArmorItem(TestArmorMaterial.MIODIUM, EquipmentSlotType.FEET, new Item.Properties().group(TestMod.TAB)));
 }
