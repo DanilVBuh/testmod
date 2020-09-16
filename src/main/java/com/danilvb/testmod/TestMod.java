@@ -31,7 +31,8 @@ public class TestMod
 
     }
 
-    private void doClientStuff(final FMLClientSetupEvent event) {
+    private void doClientStuff(final FMLClientSetupEvent event)
+    {
 
     }
 

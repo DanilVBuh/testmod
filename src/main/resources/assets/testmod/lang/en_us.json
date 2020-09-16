@@ -1,5 +1,10 @@
 {
   "item.testmod.miodium": "Miodium",
+  "item.testmod.miodium_sword": "Miodium sword",
+  "item.testmod.miodium_axe": "Miodium axe",
+  "item.testmod.miodium_pickaxe": "Miodium pickaxe",
+  "item.testmod.miodium_shovel": "Miodium shovel",
+  "item.testmod.miodium_hoe": "Miodium hoe",
   "item.testmod.perekristium": "Perekristium",
   "item.testmod.miodium_helmet": "Miodium helmet",
   "item.testmod.miodium_boots": "Miodium boots",
