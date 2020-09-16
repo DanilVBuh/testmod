@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 public enum MiodiumItemTier implements IItemTier {
 
     MIODIUM(3, 1100, 7.0f, 4.0f, 15, () ->{
-        return Ingredient.fromItems(RegistryHandler.MIODIUM_SWORD.get());
+        return Ingredient.fromItems(RegistryHandler.MIODIUM.get());
     });
 
     private final int harvestLevel;
