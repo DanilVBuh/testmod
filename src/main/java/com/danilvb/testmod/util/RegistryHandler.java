@@ -29,4 +29,6 @@ public class RegistryHandler {
             new PickaxeItem(MiodiumItemTier.MIODIUM, 1, -2.8f, new Item.Properties().group(TestMod.TAB)));
     public static final RegistryObject<ShovelItem> MIODIUM_SHOVEL = ITEMS.register("miodium_shovel", () ->
             new ShovelItem(MiodiumItemTier.MIODIUM, 2, -3.2f, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<HoeItem> MIODIUM_HOE = ITEMS.register("miodium_hoe", () ->
+            new HoeItem(MiodiumItemTier.MIODIUM, -3.2f, new Item.Properties().group(TestMod.TAB)));
 }
