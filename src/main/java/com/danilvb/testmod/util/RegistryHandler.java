@@ -25,4 +25,10 @@ public class RegistryHandler {
     //Armor
     public static final RegistryObject<ArmorItem> MIODIUM_HELMET = ITEMS.register("miodium_helmet",
             () -> new ArmorItem(TestArmorMaterial.MIODIUM, EquipmentSlotType.HEAD, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ArmorItem> MIODIUM_CHESTPLATE = ITEMS.register("miodium_chestplate",
+            () -> new ArmorItem(TestArmorMaterial.MIODIUM, EquipmentSlotType.CHEST, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ArmorItem> MIODIUM_LEGGINGS = ITEMS.register("miodium_leggings",
+            () -> new ArmorItem(TestArmorMaterial.MIODIUM, EquipmentSlotType.LEGS, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ArmorItem> MIODIUM_BOOTS = ITEMS.register("miodium_boots",
+            () -> new ArmorItem(TestArmorMaterial.MIODIUM, EquipmentSlotType.FEET, new Item.Properties().group(TestMod.TAB)));
 }
