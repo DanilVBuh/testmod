@@ -3,10 +3,7 @@ package com.danilvb.testmod.util;
 import com.danilvb.testmod.TestMod;
 import com.danilvb.testmod.items.ItemBase;
 import com.danilvb.testmod.tools.MiodiumItemTier;
-import net.minecraft.item.AxeItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,4 +27,6 @@ public class RegistryHandler {
             new AxeItem(MiodiumItemTier.MIODIUM, 4, -2.0f, new Item.Properties().group(TestMod.TAB)));
     public static final RegistryObject<PickaxeItem> MIODIUM_PICKAXE = ITEMS.register("miodium_pickaxe", () ->
             new PickaxeItem(MiodiumItemTier.MIODIUM, 1, -2.8f, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ShovelItem> MIODIUM_SHOVEL = ITEMS.register("miodium_shovel", () ->
+            new ShovelItem(MiodiumItemTier.MIODIUM, 2, -3.2f, new Item.Properties().group(TestMod.TAB)));
 }
