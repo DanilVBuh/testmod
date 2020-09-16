@@ -6,7 +6,7 @@ import net.minecraft.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum MiodiumItemTier implements IItemTier {
+public enum TestItemTier implements IItemTier {
 
     MIODIUM(3, 1100, 7.0f, 4.0f, 15, () ->{
         return Ingredient.fromItems(RegistryHandler.MIODIUM.get());
@@ -19,7 +19,7 @@ public enum MiodiumItemTier implements IItemTier {
     private final int enchantability;
     private final Supplier<Ingredient> repairMaterial;
 
-    MiodiumItemTier(int harvestLevel, int maxUses, float efficiency, float attackDamage, int enchantability, Supplier<Ingredient> repairMaterial) {
+    TestItemTier(int harvestLevel, int maxUses, float efficiency, float attackDamage, int enchantability, Supplier<Ingredient> repairMaterial) {
         this.harvestLevel = harvestLevel;
         this.maxUses = maxUses;
         this.efficiency = efficiency;
