@@ -5,6 +5,7 @@ import com.danilvb.testmod.items.ItemBase;
 import com.danilvb.testmod.tools.MiodiumItemTier;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -27,4 +28,6 @@ public class RegistryHandler {
             new SwordItem(MiodiumItemTier.MIODIUM, 3, -1.0f, new Item.Properties().group(TestMod.TAB)));
     public static final RegistryObject<AxeItem> MIODIUM_AXE = ITEMS.register("miodium_axe", () ->
             new AxeItem(MiodiumItemTier.MIODIUM, 4, -2.0f, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<PickaxeItem> MIODIUM_PICKAXE = ITEMS.register("miodium_pickaxe", () ->
+            new PickaxeItem(MiodiumItemTier.MIODIUM, 1, -2.8f, new Item.Properties().group(TestMod.TAB)));
 }
