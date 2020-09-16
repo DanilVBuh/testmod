@@ -3,6 +3,7 @@ package com.danilvb.testmod.util;
 import com.danilvb.testmod.TestMod;
 import com.danilvb.testmod.items.ItemBase;
 import com.danilvb.testmod.tools.MiodiumItemTier;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
@@ -23,5 +24,7 @@ public class RegistryHandler {
 
     //Tools
     public static final RegistryObject<SwordItem> MIODIUM_SWORD = ITEMS.register("miodium_sword", () ->
-            new SwordItem(MiodiumItemTier.MIODIUM, 3, -1.0F, new Item.Properties().group(TestMod.TAB)));
+            new SwordItem(MiodiumItemTier.MIODIUM, 3, -1.0f, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<AxeItem> MIODIUM_AXE = ITEMS.register("miodium_axe", () ->
+            new AxeItem(MiodiumItemTier.MIODIUM, 4, -2.0f, new Item.Properties().group(TestMod.TAB)));
 }
