@@ -17,6 +17,10 @@ public enum TestArmorMaterial implements IArmorMaterial {
     MIODIUM(TestMod.MOD_ID + ":miodium", 26, new int[]{3, 5, 7, 2}, 20,
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.0f, () -> {
         return Ingredient.fromItems(RegistryHandler.MIODIUM.get());
+    }),
+    PHILOCLITE(TestMod.MOD_ID + ":philoclite", 26, new int[]{3, 5, 7, 2}, 20,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.0f, () -> {
+        return Ingredient.fromItems(RegistryHandler.PHILOCLITE.get());
     });
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{11, 16, 15, 13};

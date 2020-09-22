@@ -1,10 +1,10 @@
 {
-  "item.testmod.miodium": "Miodium",
-  "item.testmod.perekristium": "Perekristium",
-  "block.testmod.miodium_block": "Block of miodium",
-  "block.testmod.miodium_ore": "Miodium ore",
-  "block.testmod.perekristium_block": "Block of perekristium",
   "itemGroup.testTab": "Test tab",
+  
+  "item.testmod.perekristium": "Perekristium",
+  "block.testmod.perekristium_block": "Block of perekristium",
+  
+  "item.testmod.miodium": "Miodium",
   "item.testmod.miodium_sword": "Miodium sword",
   "item.testmod.miodium_axe": "Miodium axe",
   "item.testmod.miodium_pickaxe": "Miodium pickaxe",
@@ -13,5 +13,22 @@
   "item.testmod.miodium_helmet": "Miodium helmet",
   "item.testmod.miodium_boots": "Miodium boots",
   "item.testmod.miodium_chestplate": "Miodium chestplate",
-  "item.testmod.miodium_leggings": "Miodium leggings"
+  "item.testmod.miodium_leggings": "Miodium leggings",
+  
+  "block.testmod.miodium_block": "Block of miodium",
+  "block.testmod.miodium_ore": "Miodium ore",
+  
+  "item.testmod.philoclite": "Philoclite",
+  "item.testmod.philoclite_sword": "Philoclite sword",
+  "item.testmod.philoclite_axe": "Philoclite axe",
+  "item.testmod.philoclite_pickaxe": "Philoclite pickaxe",
+  "item.testmod.philoclite_shovel": "Philoclite shovel",
+  "item.testmod.philoclite_hoe": "Philoclite hoe",
+  "item.testmod.philoclite_helmet": "Philoclite helmet",
+  "item.testmod.philoclite_boots": "Philoclite boots",
+  "item.testmod.philoclite_chestplate": "Philoclite chestplate",
+  "item.testmod.philoclite_leggings": "Philoclite leggings",
+  
+  "block.testmod.philoclite_block": "Block of philoclite",
+  "block.testmod.philoclite_ore": "Philoclite ore"
 }
