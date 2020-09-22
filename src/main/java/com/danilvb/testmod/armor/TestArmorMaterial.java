@@ -18,8 +18,8 @@ public enum TestArmorMaterial implements IArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.0f, () -> {
         return Ingredient.fromItems(RegistryHandler.MIODIUM.get());
     }),
-    PHILOCLITE(TestMod.MOD_ID + ":philoclite", 26, new int[]{3, 5, 7, 2}, 20,
-            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.0f, () -> {
+    PHILOCLITE(TestMod.MOD_ID + ":philoclite", 23, new int[]{3, 4, 6, 1}, 18,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.9f, () -> {
         return Ingredient.fromItems(RegistryHandler.PHILOCLITE.get());
     });
 

@@ -11,7 +11,7 @@ public enum TestItemTier implements IItemTier {
     MIODIUM(3, 1100, 7.0f, 4.0f, 15, () ->{
         return Ingredient.fromItems(RegistryHandler.MIODIUM.get());
     }),
-    PHILOCLITE(3, 1100, 7.0f, 4.0f, 15, () ->{
+    PHILOCLITE(2, 1000, 6.0f, 3.5f, 13, () ->{
         return Ingredient.fromItems(RegistryHandler.PHILOCLITE.get());
     });
 

@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "testmod:miodium_ore"
+              "name": "testmod:philoclite_ore"
             },
             {
               "type": "minecraft:item",
@@ -46,7 +46,7 @@
                   }
                 }
               ],
-              "name": "testmod:miodium"
+              "name": "testmod:philoclite"
             }
           ]
         }
